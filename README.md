@@ -1,13 +1,13 @@
 # Medical Imaging - Kidney Disease Classification Using Deep Learning
 
 
-## 🎯 Objective
+## Objective
 
 Develop an automated deep learning pipeline that classifies kidney conditions from medical images using advanced preprocessing techniques (enhancement and degradation) to improve diagnostic accuracy.
 
 ---
 
-## 🧠 Introduction
+## Introduction
 
 Medical image quality inconsistencies (noise, low contrast, blur) impact accurate kidney disease diagnosis. This project tackles such issues with:
 
@@ -18,7 +18,7 @@ Medical image quality inconsistencies (noise, low contrast, blur) impact accurat
 
 ---
 
-## 📂 Dataset & Preprocessing
+## Dataset & Preprocessing
 
 **Classes:** Normal, Stone, Cyst, Tumor  
 **Versions Created:** Enhanced, Degraded
@@ -51,7 +51,7 @@ Medical image quality inconsistencies (noise, low contrast, blur) impact accurat
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 ### 1. Dataset Organization
 - Structured into `train/`, `val/`, `test/` with class-wise folders.
@@ -78,20 +78,20 @@ Medical image quality inconsistencies (noise, low contrast, blur) impact accurat
 
 ---
 
-## 🧰 Tools and Libraries
+## Tools and Libraries
 - OpenCV, NumPy, FastAI, TensorFlow/Keras  
 - Matplotlib, Seaborn
 
 ---
 
-## 💡 Applications
+## Applications
 - Early diagnosis of kidney conditions
 - Robust deep learning under image variability
 - Integration into clinical/telemedicine systems
 
 ---
 
-## 📊 Results
+## Results
 
 | Model          | Dataset Type | Accuracy | Precision | Recall |
 |----------------|--------------|----------|-----------|--------|
@@ -110,7 +110,7 @@ Medical image quality inconsistencies (noise, low contrast, blur) impact accurat
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Image enhancement significantly improves the accuracy of kidney condition classification models. ResNet50 with enhanced images outperformed other combinations, highlighting the importance of preprocessing. The approach is reliable, scalable, and ready for real-world medical use.
 
