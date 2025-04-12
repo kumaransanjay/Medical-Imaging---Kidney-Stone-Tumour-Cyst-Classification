@@ -93,12 +93,11 @@ Medical image quality inconsistencies (noise, low contrast, blur) impact accurat
 
 ## Results
 
-| Model          | Dataset Type | Accuracy | Precision | Recall |
-|----------------|--------------|----------|-----------|--------|
-| Custom CNN     | Enhanced     | 92.5%    | -         | -      |
-| ResNet50       | Enhanced     | 93.6%    | 93.8%     | 93.4%  |
-| Custom CNN     | Degraded     | 89.7%    | -         | -      |
-| ResNet50       | Degraded     | 90.2%    | -         | -      |
+| Model          | Dataset Type | Accuracy |
+|----------------|--------------|----------|
+| Custom CNN     | Degraded     | 89.7%    |
+| Custom CNN     | Enhanced     | 92.5%    |
+| ResNet50       | Enhanced     | 93.6%    |
 
 ---
 
